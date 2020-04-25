@@ -1,0 +1,189 @@
+svg{z-index: 2;}
+.st0{fill:#EAEAEA;}
+.st1{opacity:0.33;fill:#EAEAEA;}
+.st2{opacity:0.12;fill:#EAEAEA;}
+.st3{opacity:0.88;fill:#EAEAEA;}
+.st4{opacity:0.65;fill:#EAEAEA;}
+.st5{opacity:0.26;fill:#EAEAEA;}
+.st6{opacity:0.14;fill:#EAEAEA;}
+.st7{opacity:0.44;fill:#EAEAEA;}
+.st8{opacity:0.61;fill:#EAEAEA;}
+.st9{opacity:0.48;fill:#EAEAEA;}
+.st10{opacity:0.83;fill:#EAEAEA;}
+.st11{opacity:0.6;fill:#EAEAEA;}
+.st12{opacity:0.78;fill:#EAEAEA;}
+.st13{opacity:0.35;fill:#EAEAEA;}
+.st14{opacity:0.52;fill:#EAEAEA;}
+.st15{opacity:0.27;fill:#EAEAEA;}
+.st16{opacity:0.15;fill:#EAEAEA;}
+.st17{opacity:0.21;fill:#EAEAEA;}
+.st18{opacity:0.16;fill:#EAEAEA;}
+.st19{fill:#845C34;}
+.st20 {fill:#EDD598;}
+.st20-1{
+    fill:#EDD598;
+}
+.st20-1:hover{
+    animation-duration: 4s; 
+    animation-name: hoverScale2;
+    animation-iteration-count: infinite;
+}
+
+.st21{fill:#B08F6D;}
+.st22{fill:#BD856F;}
+.st23{fill:#FCDFBE;}
+.st24{fill:#F9EEC0;}
+.st25{fill:#BC9886;}
+.st26{fill:#BC7346;}
+.st27{fill:#DBC8AE;}
+.st28{fill:#F5F0E5;}
+.st29{fill:#C9C088;}
+.st30{fill:#B8973E;}
+.st31{fill:#E7D8C8;}
+.st32{fill:#C2D6B0;}
+.st33{
+    fill:#8BA57A;
+    /* transition: transform(2s) */
+}
+    
+    
+.st33:hover{
+    animation-duration: 4s; 
+    animation-name: hoverScale;
+    animation-iteration-count: infinite;
+    
+}
+
+#ss14 {
+    display: block;
+    z-index: 9999;
+}
+
+/* .scale {
+    animation-duration: 4s; 
+    animation-name: hoverScale2;
+    animation-iteration-count: infinite;
+} */
+
+#graypts {
+    z-index: 0;
+}
+.st34{fill:#FCCC77;}
+.st34:hover{
+    fill:#FCCC77;
+    animation-duration: 4s; 
+    animation-name: hoverScale2;
+    animation-iteration-count: infinite
+}
+.st35{
+    fill:#E49B7B;
+    animation-duration: 4s; 
+    animation-name: hoverScale;
+    animation-iteration-count: infinite
+}
+.st36{display:none;}
+.st37{display:inline;}
+.st38{font-family:'Camber-Lg';}
+.st39{font-size:14px;}
+.st40{display:inline;fill:#DBC8AE;}
+.st41{display:inline;fill:#B8973E;}
+.st42{display:inline;fill:#C2D6B0;}
+.st43{display:inline;fill:#E49B7B;}
+.st44{display:inline;fill:#FCDFBE;}
+.st45{display:inline;fill:#C9C088;}
+.st46{display:inline;fill:#BC9886;}
+.st47{display:inline;fill:#F9EEC0;}
+.st48{display:inline;fill:#F5F0E5;}
+.st49{display:inline;fill:#BC7346;}
+.st50{display:inline;fill:#D19D5C;}
+.st51{display:inline;fill:#FCCC77;}
+.st52{display:inline;fill:#845C34;}
+.st53{display:inline;fill:#E7D8C8;}
+.st54{display:inline;fill:#B08F6D;}
+.st55{display:inline;fill:#BD856F;}
+.st56{display:inline;fill:#EDD598;}
+.st57{font-family:'MyriadPro-Regular';}
+.st58{font-size:10.1896px;}
+.st59{display:inline;fill:#8BA57A;}
+
+
+.popoverlay {
+    top: 100px;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+} 
+
+/* Popup container - can be anything you want */
+.popup {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    justify-items:right;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+
+  /* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+  /* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+@keyframes hoverScale {
+    0%      {r:4.98}
+    25%     {r:2.98}
+    50%     {r:7.98}
+    75%     {r:2.98}
+    100%    {r:4.98}
+}
+
+@keyframes hoverScale2 {
+    0%      {r:4.98}
+    25%     {r:7.98}
+    50%     {r:2.98}
+    75%     {r:7.98}
+    100%    {r:4.98}
+}
